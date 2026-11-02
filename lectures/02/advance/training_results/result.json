@@ -1,0 +1,70 @@
+{
+  "config": {
+    "base_model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "seed": 42,
+    "num_train_epochs": 20,
+    "warmup_steps": 6,
+    "lr": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "max_seq_len": 512,
+    "max_new_tokens": 256,
+    "gen": {
+      "do_sample": false
+    },
+    "data_dir": "/content/drive/MyDrive/aie2026/glossary_lora/data_20261031",
+    "work_dir": "/content/glossary_lora_e20_20261031_023336",
+    "drive_dir": "/content/drive/MyDrive/aie2026/glossary_lora/runs"
+  },
+  "versions": {
+    "transformers": "5.18.0",
+    "peft": "0.21.1",
+    "trl": "1.14.2",
+    "torch": "2.11.0+cu130"
+  },
+  "method": "LoRA（量子化なし）",
+  "dataset": {
+    "train": 464,
+    "valid": 58,
+    "test": 58,
+    "files": {
+      "gold.json": {
+        "path": "/content/drive/MyDrive/aie2026/glossary_lora/data_20261031/gold.json",
+        "sha256": "a473b83de1bc3264ac162d6a30c46f8f76b3779e0da71b2a2ffad038e65c09ea"
+      },
+      "test.jsonl": {
+        "path": "/content/drive/MyDrive/aie2026/glossary_lora/data_20261031/test.jsonl",
+        "sha256": "69e0be7232d272f57a428d5d0c9db2546dd0b717c1263ee9e836ebd081b58383"
+      },
+      "train.jsonl": {
+        "path": "/content/drive/MyDrive/aie2026/glossary_lora/data_20261031/train.jsonl",
+        "sha256": "a28fb56df58b619e617999a4b526b050aad215ffa2f49624aedb5d7a10ab4de4"
+      },
+      "valid.jsonl": {
+        "path": "/content/drive/MyDrive/aie2026/glossary_lora/data_20261031/valid.jsonl",
+        "sha256": "24468a1501f77b736c7b120f5b2a54109ede44fe6cd11a3074d40563645f8f02"
+      }
+    }
+  },
+  "evaluation": "NFKC正規化後の必須語句一致率。意味的正確性は別途確認。",
+  "before": {
+    "label": "before",
+    "n": 58,
+    "content_rate": 0.08620689655172414,
+    "seconds": 660.3
+  },
+  "after": {
+    "label": "after",
+    "n": 58,
+    "content_rate": 0.7241379310344828,
+    "seconds": 201.1
+  },
+  "regressed": [
+    "AIアプリで使うexternal toolについて、基本的な意味を知りたいです。"
+  ],
+  "best_validation_loss": 0.9280921816825867,
+  "best_checkpoint": "/content/drive/MyDrive/aie2026/glossary_lora/runs/glossary_lora_e20_20261031_023336/ckpt/checkpoint-116",
+  "training_steps": 1160,
+  "executed_training_myself": true
+}

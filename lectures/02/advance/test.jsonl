@@ -1,0 +1,58 @@
+{"term_id": "branch", "question": "開発作業に出てくるbranchについて、意味を教えてもらえますか。"}
+{"term_id": "epoch", "question": "モデルの訓練設定にあるepochという用語を解説してもらえますか。"}
+{"term_id": "temperature", "question": "生成モデルのtemperatureについて、どのような値なのか知りたいです。"}
+{"term_id": "pretraining", "question": "LLMを作るときの事前学習について、基本的な意味を知りたいです。"}
+{"term_id": "quantization", "question": "LLMのquantizationという技術について、基本を説明してほしいです。"}
+{"term_id": "pi", "question": "Pi coding agentというソフトウェアについて、概要を教えてほしいです。"}
+{"term_id": "fine-tuning", "question": "言語モデルのfine-tuningについて、どんな学習なのか解説をお願いします。"}
+{"term_id": "fetch-server", "question": "mcp-server-fetchというツールについて、基本的な機能を知りたいです。"}
+{"term_id": "pydantic-ai", "question": "講座のPydanticAIというライブラリについて、基本的な役割を知りたいです。"}
+{"term_id": "context-window", "question": "モデルの説明にあるcontext windowについて、用語の意味を教えてほしいです。"}
+{"term_id": "qlora", "question": "モデルの追加学習に使うQLoRAについて、仕組みの概要を知りたいです。"}
+{"term_id": "token", "question": "LLMで使うtokenの意味がわかりません。説明をお願いします。"}
+{"term_id": "human-in-the-loop", "question": "Human-in-the-loopという仕組みについて、意味を説明してもらえますか。"}
+{"term_id": "mcp-config", "question": "講座で扱うMCPの設定ファイルについて、何を指定するものか説明をお願いします。"}
+{"term_id": "evaluation-loop", "question": "講義で出てきた改善サイクルについて、どんな進め方なのか教えてもらえますか。"}
+{"term_id": "lec-start-tag", "question": "lecNN-startというGitタグについて、何のためにあるのか知りたいです。"}
+{"term_id": "api", "question": "Application Programming Interfaceとは何をするためのものなのでしょうか？"}
+{"term_id": "llm", "question": "講義でLLMという略語を見ました。どんな仕組みのモデルを指しますか？"}
+{"term_id": "prompt", "question": "AIを使うときに言うpromptについて、概要を知りたいです。"}
+{"term_id": "codespaces-secret", "question": "GitHub Codespacesでいうsecretとは何を指すのでしょうか。"}
+{"term_id": "fork", "question": "講座repoを扱うときに使うforkという用語を説明してほしいです。"}
+{"term_id": "system-prompt", "question": "LLMのsystem instructionという用語の意味を教えてもらえますか。"}
+{"term_id": "coding-agent", "question": "AIコーディングエージェントという用語の意味を、初めて学ぶ人向けに教えてください。"}
+{"term_id": "mcp", "question": "AIアプリの開発で出てくるMCPという用語を解説してほしいです。"}
+{"term_id": "learning-rate", "question": "モデルを訓練するときのlearning rateについて、意味を知りたいです。"}
+{"term_id": "devcontainer", "question": "講座の環境設定に出てくるdevcontainerについて、何をするものか知りたいです。"}
+{"term_id": "api-key", "question": "開発の説明に出てきたAPIキーについて、その意味を知りたいです。"}
+{"term_id": "external-tool", "question": "AIアプリで使うexternal toolについて、基本的な意味を知りたいです。"}
+{"term_id": "ai-agent", "question": "LLMを使うシステムでいうエージェントとは何か、教えてほしいです。"}
+{"term_id": "huggingface-hub", "question": "講義で紹介されたHF Hubについて、何に使うサービスなのか説明をお願いします。"}
+{"term_id": "tool-description", "question": "この講座でいうツールスキーマについて、意味を教えてもらえますか。"}
+{"term_id": "lora-rank", "question": "LoRAでいうrankという値が何を決めるのか、教えてほしいです。"}
+{"term_id": "codespaces", "question": "講座で使うコードスペースというサービスの概要を教えてください。"}
+{"term_id": "answer-md", "question": "AIE2026の解答ファイルとはどんなものか、説明してもらえますか。"}
+{"term_id": "structured-output", "question": "エージェント開発でいうstructured outputについて、基本を説明してほしいです。"}
+{"term_id": "ai-engineering", "question": "AIアプリの開発で使われる「AIエンジニアリング」という言葉の意味を知りたいです。"}
+{"term_id": "homework-levels", "question": "AIE2026の宿題レベルについて、各段階の概要を知りたいです。"}
+{"term_id": "default-model", "question": "この講座のデフォルトモデルについて、用語集の説明を教えてほしいです。"}
+{"term_id": "mcp-transport", "question": "stdioやStreamable HTTPが登場するMCPのトランスポートについて、概要を知りたいです。"}
+{"term_id": "tool", "question": "エージェントが使うツールとは、何を指しているのか知りたいです。"}
+{"term_id": "harness", "question": "agent harnessという用語が指すものを教えてもらえますか。"}
+{"term_id": "environment-variable", "question": "environment variableという言葉を、講座の用語として説明してもらえますか。"}
+{"term_id": "sft", "question": "Supervised Fine-Tuningとはどういう手法か、意味を教えてもらえますか。"}
+{"term_id": "mcp-client", "question": "MCP clientとはどんな側のプログラムなのか、教えてほしいです。"}
+{"term_id": "mcp-server", "question": "MCP serverという用語について、その役割を説明してもらえますか。"}
+{"term_id": "rate-limit", "question": "rate limitという仕組みについて、基本的な意味を知りたいです。"}
+{"term_id": "hallucination", "question": "言語モデルの説明でhallucinationとありました。この言葉を解説してください。"}
+{"term_id": "agent-loop", "question": "AIエージェントのagent loopについて、処理の概要を説明してもらえますか。"}
+{"term_id": "pull-request", "question": "Pull Requestについて、どのような仕組みなのか説明をお願いします。"}
+{"term_id": "guardrail", "question": "AI開発で使うguardrailという言葉の意味を知りたいです。"}
+{"term_id": "peft", "question": "モデル学習の説明にあるPEFTについて、概要を教えてほしいです。"}
+{"term_id": "code-completion", "question": "AIによるコード補完とは何をしてくれる機能なのか、教えてほしいです。"}
+{"term_id": "lora", "question": "LoRAという手法の基本的な仕組みを説明してもらえますか。"}
+{"term_id": "adk", "question": "エージェント開発で使うADKについて、概要を説明してもらえますか。"}
+{"term_id": "tool-namespace", "question": "ツール名のプレフィックスという用語について、意味を教えてほしいです。"}
+{"term_id": "overfitting", "question": "オーバーフィッティングという現象について、意味を教えてほしいです。"}
+{"term_id": "github-copilot", "question": "講義に出てきたCopilotについて、できることの概要を知りたいです。"}
+{"term_id": "test-model", "question": "講座で使うテスト用モデルについて、どんなものなのか教えてほしいです。"}
